@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MTo-nN-55r" customClass="AutoCompletionTextField">
+                                <rect key="frame" x="34" y="70" width="218" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="coreDataTextField"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6Pz-9L-cKv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedBorderColor">
+                                        <color key="value" red="0.34605787649999997" green="0.8020430073" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="selectedBorderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="tableBorderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QCh-vJ-fGf" customClass="AutoCompletionTextField">
+                                <rect key="frame" x="275" y="70" width="218" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="textFieldJSON"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UgX-m4-Vbh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedBorderColor">
+                                        <color key="value" red="0.34605787649999997" green="0.8020430073" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="selectedBorderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="tableBorderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iaG-oS-Aka" customClass="AutoCompletionTextField">
+                                <rect key="frame" x="516" y="70" width="218" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="textFieldAPI"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iue-C9-aRj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedBorderColor">
+                                        <color key="value" red="0.34605787649999997" green="0.8020430073" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="selectedBorderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Core Data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCo-Bu-QAW">
+                                <rect key="frame" x="34" y="39" width="218" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="218" id="ZS0-yE-pjo"/>
+                                    <constraint firstAttribute="height" constant="21" id="fQ3-73-mSY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JSON File" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zq-9r-7CN">
+                                <rect key="frame" x="275" y="39" width="218" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Sxg-Dp-nOb"/>
+                                    <constraint firstAttribute="width" constant="218" id="uIq-Sb-Fmn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="API" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUv-3n-cFV">
+                                <rect key="frame" x="516" y="39" width="218" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Gz3-QG-NUu"/>
+                                    <constraint firstAttribute="width" constant="218" id="uLL-6g-hi1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MTo-nN-55r" firstAttribute="width" secondItem="iaG-oS-Aka" secondAttribute="width" id="9Cr-vs-aMj"/>
+                            <constraint firstItem="MTo-nN-55r" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="ADQ-Lj-hfL"/>
+                            <constraint firstItem="MTo-nN-55r" firstAttribute="width" secondItem="QCh-vJ-fGf" secondAttribute="width" id="GMy-Lm-Ax0"/>
+                            <constraint firstItem="iaG-oS-Aka" firstAttribute="leading" secondItem="QCh-vJ-fGf" secondAttribute="trailing" constant="23" id="IbO-Dl-7yN"/>
+                            <constraint firstItem="iaG-oS-Aka" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="JNL-2H-CcE"/>
+                            <constraint firstItem="MTo-nN-55r" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="34" id="Pjw-EK-60P"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iaG-oS-Aka" secondAttribute="trailing" constant="18" id="Xak-JN-7EM"/>
+                            <constraint firstItem="QCh-vJ-fGf" firstAttribute="leading" secondItem="MTo-nN-55r" secondAttribute="trailing" constant="23" id="cGd-hO-x7g"/>
+                            <constraint firstItem="QCh-vJ-fGf" firstAttribute="top" secondItem="4zq-9r-7CN" secondAttribute="bottom" constant="10" id="fC4-aJ-c5D"/>
+                            <constraint firstItem="QCh-vJ-fGf" firstAttribute="centerX" secondItem="4zq-9r-7CN" secondAttribute="centerX" id="gp8-8T-1h0"/>
+                            <constraint firstItem="MTo-nN-55r" firstAttribute="top" secondItem="WCo-Bu-QAW" secondAttribute="bottom" constant="10" id="l3c-Bk-zGV"/>
+                            <constraint firstItem="MTo-nN-55r" firstAttribute="centerX" secondItem="WCo-Bu-QAW" secondAttribute="centerX" id="mV8-la-u5S"/>
+                            <constraint firstItem="QCh-vJ-fGf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="mWI-eP-KxO"/>
+                            <constraint firstItem="iaG-oS-Aka" firstAttribute="top" secondItem="tUv-3n-cFV" secondAttribute="bottom" constant="10" id="nkW-ql-LfW"/>
+                            <constraint firstItem="iaG-oS-Aka" firstAttribute="centerX" secondItem="tUv-3n-cFV" secondAttribute="centerX" id="wiT-sC-iNz"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="apiTextField" destination="iaG-oS-Aka" id="ntD-Vt-IuO"/>
+                        <outlet property="coreDataTextField" destination="MTo-nN-55r" id="Gvl-gz-87w"/>
+                        <outlet property="jsonTextField" destination="QCh-vJ-fGf" id="J22-Ti-8xA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
