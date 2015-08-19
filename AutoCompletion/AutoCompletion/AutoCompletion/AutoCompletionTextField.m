@@ -285,6 +285,13 @@
     }
 }
 
+- (void)hidePlaceholder
+{
+    if (![self.text isEqualToString:_placeholderTextField.text]) {
+        _placeholderTextField.text = @"";
+    }
+}
+
 #pragma mark - Add Observers
 
 - (void)addObservers
@@ -312,6 +319,7 @@
     [self removeObservers];
     [self setUnselectedBorders];
     [self hideSuggestionsTableView];
+    [self hidePlaceholder];
     
     return [super resignFirstResponder];
 }

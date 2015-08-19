@@ -94,7 +94,7 @@
 		1B5F09DD1B4D5C6B00271730 /* GetJSONOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetJSONOperation.h; sourceTree = "<group>"; };
 		1B5F09DE1B4D5C6B00271730 /* GetJSONOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetJSONOperation.m; sourceTree = "<group>"; };
 		1B68C5761B4AC2C900D7850D /* AutoCompletion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCompletion.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B68C57A1B4AC2C900D7850D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B68C57A1B4AC2C900D7850D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		1B68C57B1B4AC2C900D7850D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B68C57D1B4AC2C900D7850D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B68C57E1B4AC2C900D7850D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 				1B497C281B4FB3A90079348F /* AutoCompletionUIKitDynamicsAnimation.h */,
 				1B497C291B4FB3A90079348F /* AutoCompletionUIKitDynamicsAnimation.m */,
 			);
-			name = "Animation Demo";
+			path = "Animation Demo";
 			sourceTree = "<group>";
 		};
 		1B5105A41B4BD7AD00E31A9E /* Model */ = {
@@ -181,7 +181,7 @@
 				1B5F09D01B4D404B00271730 /* JSON */,
 				1B5105A51B4BD7C400E31A9E /* Core Data */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		1B5105A51B4BD7C400E31A9E /* Core Data */ = {
@@ -193,7 +193,7 @@
 				1BC5BDB51B4BE4150021F95E /* Items.m */,
 				1B5105A61B4BD7DD00E31A9E /* AutoCompletion.xcdatamodeld */,
 			);
-			name = "Core Data";
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 		1B5105AE1B4BE17300E31A9E /* Frameworks */ = {
@@ -216,7 +216,7 @@
 				1B5F09DA1B4D572B00271730 /* APIDataSource.h */,
 				1B5F09DB1B4D572B00271730 /* APIDataSource.m */,
 			);
-			name = "Demo Data Source";
+			path = "Demo Data Source";
 			sourceTree = "<group>";
 		};
 		1B5F09D01B4D404B00271730 /* JSON */ = {
@@ -227,7 +227,7 @@
 				1B5F09D41B4D47BC00271730 /* JSONManager.h */,
 				1B5F09D51B4D47BC00271730 /* JSONManager.m */,
 			);
-			name = JSON;
+			path = JSON;
 			sourceTree = "<group>";
 		};
 		1B68C56D1B4AC2C900D7850D = {
@@ -281,7 +281,7 @@
 				4B559F5F1B57FAE3000812F3 /* NSString+URLEncoding.h */,
 				4B559F601B57FAE3000812F3 /* NSString+URLEncoding.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		1B68C5921B4AC2CA00D7850D /* AutoCompletionTests */ = {
@@ -321,7 +321,7 @@
 				1B5F09C91B4D27E200271730 /* AutoCompletionTextFieldDelegate.h */,
 				1B497C241B4FB1C70079348F /* AutoCompletionAnimator.h */,
 			);
-			name = AutoCompletion;
+			path = AutoCompletion;
 			sourceTree = "<group>";
 		};
 		1B68C5A91B4AC33700D7850D /* Operations */ = {
@@ -338,7 +338,7 @@
 				1B5105A91B4BE10600E31A9E /* CoreDataOperation.h */,
 				1B5105AA1B4BE10600E31A9E /* CoreDataOperation.m */,
 			);
-			name = Operations;
+			path = Operations;
 			sourceTree = "<group>";
 		};
 		8304FDFB1B4EBEA300B36DE2 /* AutoCompletionUITests */ = {
