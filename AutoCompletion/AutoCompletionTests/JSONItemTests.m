@@ -2,9 +2,7 @@
 //  JSONItemTests.m
 //  AutoCompletion
 //
-//  Created by Norbert Agoston on 15/07/15.
-//  Copyright (c) 2015 Flaviu Silaghi. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
