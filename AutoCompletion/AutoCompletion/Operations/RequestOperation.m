@@ -1,10 +1,8 @@
 //
 //  DownloadOperation.m
-//  Site Inspect
+//  AutoCompletion
 //
-//  Created by Gil Eluard on 04/06/15.
-//  Copyright (c) 2015 Social Tables. All rights reserved.
-//
+
 
 #import "RequestOperation.h"
 

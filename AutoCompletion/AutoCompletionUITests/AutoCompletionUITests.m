@@ -2,9 +2,7 @@
 //  AutoCompletionUITests.m
 //  AutoCompletionUITests
 //
-//  Created by Ciprian Zapuc on 7/9/15.
-//  Copyright © 2015 Flaviu Silaghi. All rights reserved.
-//
+
 
 #import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
