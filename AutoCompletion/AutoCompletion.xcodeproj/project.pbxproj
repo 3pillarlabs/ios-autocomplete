@@ -33,8 +33,6 @@
 		1BC5BDB61B4BE4150021F95E /* Items.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC5BDB51B4BE4150021F95E /* Items.m */; };
 		1BC5BDBC1B4BFCE50021F95E /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC5BDBB1B4BFCE50021F95E /* CoreDataManager.m */; };
 		1BC5BDBF1B4C05780021F95E /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC5BDBE1B4C05780021F95E /* Operation.m */; };
-		1BCF9E8A1B53A68900306E2E /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCF9E881B53A68900306E2E /* Fabric.framework */; };
-		1BCF9E8B1B53A68900306E2E /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCF9E891B53A68900306E2E /* Crashlytics.framework */; };
 		4B559F5D1B57AEC3000812F3 /* AutoCompletionGetJSONOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B559F5C1B57AEC3000812F3 /* AutoCompletionGetJSONOperationTests.m */; };
 		4B559F611B57FAE3000812F3 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B559F601B57FAE3000812F3 /* NSString+URLEncoding.m */; };
 		4B55DFB21B56425B00225FA7 /* AutoCompletionApiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55DFB11B56425B00225FA7 /* AutoCompletionApiTests.m */; };
@@ -117,8 +115,6 @@
 		1BC5BDBB1B4BFCE50021F95E /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
 		1BC5BDBD1B4C05780021F95E /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
 		1BC5BDBE1B4C05780021F95E /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
-		1BCF9E881B53A68900306E2E /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		1BCF9E891B53A68900306E2E /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		4B559F5C1B57AEC3000812F3 /* AutoCompletionGetJSONOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompletionGetJSONOperationTests.m; sourceTree = "<group>"; };
 		4B559F5E1B57B09D000812F3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		4B559F5F1B57FAE3000812F3 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
@@ -142,8 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B5105B01B4BE18300E31A9E /* CoreData.framework in Frameworks */,
-				1BCF9E8B1B53A68900306E2E /* Crashlytics.framework in Frameworks */,
-				1BCF9E8A1B53A68900306E2E /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +193,6 @@
 		1B5105AE1B4BE17300E31A9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1BCF9E881B53A68900306E2E /* Fabric.framework */,
-				1BCF9E891B53A68900306E2E /* Crashlytics.framework */,
 				1B5105AF1B4BE18300E31A9E /* CoreData.framework */,
 			);
 			name = Frameworks;
@@ -360,7 +352,6 @@
 				1B68C5721B4AC2C900D7850D /* Sources */,
 				1B68C5731B4AC2C900D7850D /* Frameworks */,
 				1B68C5741B4AC2C900D7850D /* Resources */,
-				1B4C2AFE1B53A44E0080BC7B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -476,22 +467,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1B4C2AFE1B53A44E0080BC7B /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run 63a9243aa060679e624dc2de181ccd988667f434 8d720e887ec09ddbe59c984a5cd3fd06650199153110d792c6d2a846d00f342a";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B68C5721B4AC2C900D7850D /* Sources */ = {
