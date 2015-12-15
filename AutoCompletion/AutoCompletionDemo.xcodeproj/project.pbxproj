@@ -25,8 +25,6 @@
 		1B68C5821B4AC2C900D7850D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B68C5811B4AC2C900D7850D /* ViewController.m */; };
 		1B68C5871B4AC2CA00D7850D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B68C5861B4AC2CA00D7850D /* Images.xcassets */; };
 		1B68C58A1B4AC2CA00D7850D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B68C5881B4AC2CA00D7850D /* LaunchScreen.xib */; };
-		1B68C5A61B4AC2F300D7850D /* AutoCompletionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B68C5A11B4AC2F300D7850D /* AutoCompletionTextField.m */; };
-		1B68C5A71B4AC2F300D7850D /* AutoCompletionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B68C5A31B4AC2F300D7850D /* AutoCompletionDataSource.m */; };
 		1B68C5A81B4AC2F300D7850D /* FetchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B68C5A51B4AC2F300D7850D /* FetchOperation.m */; };
 		1B6CB4BE1B5009E700A03648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6CB4BD1B5009E700A03648 /* Main.storyboard */; };
 		1B8740421B56896D00E170C5 /* AutoCompletionTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B497C2B1B4FFBEB0079348F /* AutoCompletionTextFieldTests.m */; };
@@ -36,6 +34,8 @@
 		4B559F5D1B57AEC3000812F3 /* AutoCompletionGetJSONOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B559F5C1B57AEC3000812F3 /* AutoCompletionGetJSONOperationTests.m */; };
 		4B559F611B57FAE3000812F3 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B559F601B57FAE3000812F3 /* NSString+URLEncoding.m */; };
 		4B55DFB21B56425B00225FA7 /* AutoCompletionApiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55DFB11B56425B00225FA7 /* AutoCompletionApiTests.m */; };
+		7ADD4A8F1C2014B10004A32A /* AutoCompletionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD4A8A1C2014B10004A32A /* AutoCompletionDataSource.m */; };
+		7ADD4A901C2014B10004A32A /* AutoCompletionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD4A8C1C2014B10004A32A /* AutoCompletionTextField.m */; };
 		83F057CD1B56936600D54D34 /* AutoCompletionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F057CC1B56936600D54D34 /* AutoCompletionUITests.m */; };
 		C95FB7DC1B566D8A00C02D72 /* CoreDataOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FB7DB1B566D8A00C02D72 /* CoreDataOperationTests.m */; };
 		C95FB7DE1B567B8F00C02D72 /* FetchOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FB7DD1B567B8F00C02D72 /* FetchOperationTests.m */; };
@@ -64,7 +64,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B497C241B4FB1C70079348F /* AutoCompletionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompletionAnimator.h; sourceTree = "<group>"; };
 		1B497C281B4FB3A90079348F /* AutoCompletionUIKitDynamicsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompletionUIKitDynamicsAnimation.h; sourceTree = "<group>"; };
 		1B497C291B4FB3A90079348F /* AutoCompletionUIKitDynamicsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompletionUIKitDynamicsAnimation.m; sourceTree = "<group>"; };
 		1B497C2B1B4FFBEB0079348F /* AutoCompletionTextFieldTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompletionTextFieldTests.m; sourceTree = "<group>"; };
@@ -77,8 +76,6 @@
 		1B5F09BF1B4D167200271730 /* JSONGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONGenerator.h; sourceTree = "<group>"; };
 		1B5F09C01B4D167200271730 /* JSONGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONGenerator.m; sourceTree = "<group>"; };
 		1B5F09C21B4D195500271730 /* file.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = file.json; sourceTree = "<group>"; };
-		1B5F09C41B4D257900271730 /* AutoCompletionTextFieldDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompletionTextFieldDataSource.h; sourceTree = "<group>"; };
-		1B5F09C91B4D27E200271730 /* AutoCompletionTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompletionTextFieldDelegate.h; sourceTree = "<group>"; };
 		1B5F09CD1B4D3A2500271730 /* CoreDataDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataDataSource.h; sourceTree = "<group>"; };
 		1B5F09CE1B4D3A2500271730 /* CoreDataDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataDataSource.m; sourceTree = "<group>"; };
 		1B5F09D11B4D406200271730 /* JSONItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONItem.h; sourceTree = "<group>"; };
@@ -91,7 +88,7 @@
 		1B5F09DB1B4D572B00271730 /* APIDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIDataSource.m; sourceTree = "<group>"; };
 		1B5F09DD1B4D5C6B00271730 /* GetJSONOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetJSONOperation.h; sourceTree = "<group>"; };
 		1B5F09DE1B4D5C6B00271730 /* GetJSONOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetJSONOperation.m; sourceTree = "<group>"; };
-		1B68C5761B4AC2C900D7850D /* AutoCompletion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCompletion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B68C5761B4AC2C900D7850D /* AutoCompletionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCompletionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B68C57A1B4AC2C900D7850D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		1B68C57B1B4AC2C900D7850D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B68C57D1B4AC2C900D7850D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,12 +97,8 @@
 		1B68C5811B4AC2C900D7850D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1B68C5861B4AC2CA00D7850D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1B68C5891B4AC2CA00D7850D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1B68C58F1B4AC2CA00D7850D /* AutoCompletionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCompletionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B68C58F1B4AC2CA00D7850D /* AutoCompletionDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCompletionDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B68C5941B4AC2CA00D7850D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B68C5A01B4AC2F300D7850D /* AutoCompletionTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompletionTextField.h; sourceTree = "<group>"; };
-		1B68C5A11B4AC2F300D7850D /* AutoCompletionTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompletionTextField.m; sourceTree = "<group>"; };
-		1B68C5A21B4AC2F300D7850D /* AutoCompletionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompletionDataSource.h; sourceTree = "<group>"; };
-		1B68C5A31B4AC2F300D7850D /* AutoCompletionDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompletionDataSource.m; sourceTree = "<group>"; };
 		1B68C5A41B4AC2F300D7850D /* FetchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchOperation.h; sourceTree = "<group>"; };
 		1B68C5A51B4AC2F300D7850D /* FetchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchOperation.m; sourceTree = "<group>"; };
 		1B6CB4BD1B5009E700A03648 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -120,7 +113,14 @@
 		4B559F5F1B57FAE3000812F3 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
 		4B559F601B57FAE3000812F3 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
 		4B55DFB11B56425B00225FA7 /* AutoCompletionApiTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompletionApiTests.m; sourceTree = "<group>"; };
-		8304FDFA1B4EBEA300B36DE2 /* AutoCompletionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCompletionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADD4A881C2014B10004A32A /* AutoCompletionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompletionAnimator.h; sourceTree = "<group>"; };
+		7ADD4A891C2014B10004A32A /* AutoCompletionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompletionDataSource.h; sourceTree = "<group>"; };
+		7ADD4A8A1C2014B10004A32A /* AutoCompletionDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompletionDataSource.m; sourceTree = "<group>"; };
+		7ADD4A8B1C2014B10004A32A /* AutoCompletionTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompletionTextField.h; sourceTree = "<group>"; };
+		7ADD4A8C1C2014B10004A32A /* AutoCompletionTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompletionTextField.m; sourceTree = "<group>"; };
+		7ADD4A8D1C2014B10004A32A /* AutoCompletionTextFieldDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompletionTextFieldDataSource.h; sourceTree = "<group>"; };
+		7ADD4A8E1C2014B10004A32A /* AutoCompletionTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompletionTextFieldDelegate.h; sourceTree = "<group>"; };
+		8304FDFA1B4EBEA300B36DE2 /* AutoCompletionDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCompletionDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8304FDFE1B4EBEA300B36DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83F057CC1B56936600D54D34 /* AutoCompletionUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompletionUITests.m; sourceTree = "<group>"; };
 		C95FB7DB1B566D8A00C02D72 /* CoreDataOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataOperationTests.m; sourceTree = "<group>"; };
@@ -164,7 +164,8 @@
 				1B497C281B4FB3A90079348F /* AutoCompletionUIKitDynamicsAnimation.h */,
 				1B497C291B4FB3A90079348F /* AutoCompletionUIKitDynamicsAnimation.m */,
 			);
-			path = "Animation Demo";
+			name = "Animation Demo";
+			path = "../AutoCompletionDemo/Animation Demo";
 			sourceTree = "<group>";
 		};
 		1B5105A41B4BD7AD00E31A9E /* Model */ = {
@@ -208,7 +209,8 @@
 				1B5F09DA1B4D572B00271730 /* APIDataSource.h */,
 				1B5F09DB1B4D572B00271730 /* APIDataSource.m */,
 			);
-			path = "Demo Data Source";
+			name = "Demo Data Source";
+			path = "../AutoCompletionDemo/Demo Data Source";
 			sourceTree = "<group>";
 		};
 		1B5F09D01B4D404B00271730 /* JSON */ = {
@@ -225,7 +227,7 @@
 		1B68C56D1B4AC2C900D7850D = {
 			isa = PBXGroup;
 			children = (
-				1B68C5781B4AC2C900D7850D /* AutoCompletion */,
+				1B68C5781B4AC2C900D7850D /* AutoCompletionDemo */,
 				8304FDFB1B4EBEA300B36DE2 /* AutoCompletionUITests */,
 				1B5105AE1B4BE17300E31A9E /* Frameworks */,
 				1B68C5921B4AC2CA00D7850D /* AutoCompletionTests */,
@@ -236,14 +238,14 @@
 		1B68C5771B4AC2C900D7850D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B68C5761B4AC2C900D7850D /* AutoCompletion.app */,
-				1B68C58F1B4AC2CA00D7850D /* AutoCompletionTests.xctest */,
-				8304FDFA1B4EBEA300B36DE2 /* AutoCompletionUITests.xctest */,
+				1B68C5761B4AC2C900D7850D /* AutoCompletionDemo.app */,
+				1B68C58F1B4AC2CA00D7850D /* AutoCompletionDemo.xctest */,
+				8304FDFA1B4EBEA300B36DE2 /* AutoCompletionDemo.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B68C5781B4AC2C900D7850D /* AutoCompletion */ = {
+		1B68C5781B4AC2C900D7850D /* AutoCompletionDemo */ = {
 			isa = PBXGroup;
 			children = (
 				1B68C59F1B4AC2DF00D7850D /* AutoCompletion */,
@@ -260,7 +262,7 @@
 				1B68C5881B4AC2CA00D7850D /* LaunchScreen.xib */,
 				1B68C5791B4AC2C900D7850D /* Supporting Files */,
 			);
-			path = AutoCompletion;
+			path = AutoCompletionDemo;
 			sourceTree = "<group>";
 		};
 		1B68C5791B4AC2C900D7850D /* Supporting Files */ = {
@@ -305,15 +307,16 @@
 		1B68C59F1B4AC2DF00D7850D /* AutoCompletion */ = {
 			isa = PBXGroup;
 			children = (
-				1B68C5A01B4AC2F300D7850D /* AutoCompletionTextField.h */,
-				1B68C5A11B4AC2F300D7850D /* AutoCompletionTextField.m */,
-				1B68C5A21B4AC2F300D7850D /* AutoCompletionDataSource.h */,
-				1B68C5A31B4AC2F300D7850D /* AutoCompletionDataSource.m */,
-				1B5F09C41B4D257900271730 /* AutoCompletionTextFieldDataSource.h */,
-				1B5F09C91B4D27E200271730 /* AutoCompletionTextFieldDelegate.h */,
-				1B497C241B4FB1C70079348F /* AutoCompletionAnimator.h */,
+				7ADD4A881C2014B10004A32A /* AutoCompletionAnimator.h */,
+				7ADD4A891C2014B10004A32A /* AutoCompletionDataSource.h */,
+				7ADD4A8A1C2014B10004A32A /* AutoCompletionDataSource.m */,
+				7ADD4A8B1C2014B10004A32A /* AutoCompletionTextField.h */,
+				7ADD4A8C1C2014B10004A32A /* AutoCompletionTextField.m */,
+				7ADD4A8D1C2014B10004A32A /* AutoCompletionTextFieldDataSource.h */,
+				7ADD4A8E1C2014B10004A32A /* AutoCompletionTextFieldDelegate.h */,
 			);
-			path = AutoCompletion;
+			name = AutoCompletion;
+			path = ../AutoCompletionDemo/AutoCompletion;
 			sourceTree = "<group>";
 		};
 		1B68C5A91B4AC33700D7850D /* Operations */ = {
@@ -330,7 +333,8 @@
 				1B5105A91B4BE10600E31A9E /* CoreDataOperation.h */,
 				1B5105AA1B4BE10600E31A9E /* CoreDataOperation.m */,
 			);
-			path = Operations;
+			name = Operations;
+			path = ../AutoCompletionDemo/Operations;
 			sourceTree = "<group>";
 		};
 		8304FDFB1B4EBEA300B36DE2 /* AutoCompletionUITests */ = {
@@ -345,9 +349,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B68C5751B4AC2C900D7850D /* AutoCompletion */ = {
+		1B68C5751B4AC2C900D7850D /* AutoCompletionDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B68C5991B4AC2CA00D7850D /* Build configuration list for PBXNativeTarget "AutoCompletion" */;
+			buildConfigurationList = 1B68C5991B4AC2CA00D7850D /* Build configuration list for PBXNativeTarget "AutoCompletionDemo" */;
 			buildPhases = (
 				1B68C5721B4AC2C900D7850D /* Sources */,
 				1B68C5731B4AC2C900D7850D /* Frameworks */,
@@ -357,14 +361,14 @@
 			);
 			dependencies = (
 			);
-			name = AutoCompletion;
+			name = AutoCompletionDemo;
 			productName = AutoCompletion;
-			productReference = 1B68C5761B4AC2C900D7850D /* AutoCompletion.app */;
+			productReference = 1B68C5761B4AC2C900D7850D /* AutoCompletionDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1B68C58E1B4AC2CA00D7850D /* AutoCompletionTests */ = {
+		1B68C58E1B4AC2CA00D7850D /* AutoCompletionDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B68C59C1B4AC2CA00D7850D /* Build configuration list for PBXNativeTarget "AutoCompletionTests" */;
+			buildConfigurationList = 1B68C59C1B4AC2CA00D7850D /* Build configuration list for PBXNativeTarget "AutoCompletionDemoTests" */;
 			buildPhases = (
 				1B68C58B1B4AC2CA00D7850D /* Sources */,
 				1B68C58C1B4AC2CA00D7850D /* Frameworks */,
@@ -375,14 +379,14 @@
 			dependencies = (
 				1B68C5911B4AC2CA00D7850D /* PBXTargetDependency */,
 			);
-			name = AutoCompletionTests;
+			name = AutoCompletionDemoTests;
 			productName = AutoCompletionTests;
-			productReference = 1B68C58F1B4AC2CA00D7850D /* AutoCompletionTests.xctest */;
+			productReference = 1B68C58F1B4AC2CA00D7850D /* AutoCompletionDemo.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8304FDF91B4EBEA300B36DE2 /* AutoCompletionUITests */ = {
+		8304FDF91B4EBEA300B36DE2 /* AutoCompletionDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8304FE031B4EBEA300B36DE2 /* Build configuration list for PBXNativeTarget "AutoCompletionUITests" */;
+			buildConfigurationList = 8304FE031B4EBEA300B36DE2 /* Build configuration list for PBXNativeTarget "AutoCompletionDemoUITests" */;
 			buildPhases = (
 				8304FDF61B4EBEA300B36DE2 /* Sources */,
 				8304FDF71B4EBEA300B36DE2 /* Frameworks */,
@@ -393,9 +397,9 @@
 			dependencies = (
 				8304FE001B4EBEA300B36DE2 /* PBXTargetDependency */,
 			);
-			name = AutoCompletionUITests;
+			name = AutoCompletionDemoUITests;
 			productName = AutoCompletionUITests;
-			productReference = 8304FDFA1B4EBEA300B36DE2 /* AutoCompletionUITests.xctest */;
+			productReference = 8304FDFA1B4EBEA300B36DE2 /* AutoCompletionDemo.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -420,7 +424,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1B68C5711B4AC2C900D7850D /* Build configuration list for PBXProject "AutoCompletion" */;
+			buildConfigurationList = 1B68C5711B4AC2C900D7850D /* Build configuration list for PBXProject "AutoCompletionDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -433,9 +437,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B68C5751B4AC2C900D7850D /* AutoCompletion */,
-				1B68C58E1B4AC2CA00D7850D /* AutoCompletionTests */,
-				8304FDF91B4EBEA300B36DE2 /* AutoCompletionUITests */,
+				1B68C5751B4AC2C900D7850D /* AutoCompletionDemo */,
+				1B68C58E1B4AC2CA00D7850D /* AutoCompletionDemoTests */,
+				8304FDF91B4EBEA300B36DE2 /* AutoCompletionDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -475,8 +479,8 @@
 			files = (
 				4B559F611B57FAE3000812F3 /* NSString+URLEncoding.m in Sources */,
 				1B5F09D91B4D4B8D00271730 /* JSONDataSource.m in Sources */,
-				1B68C5A61B4AC2F300D7850D /* AutoCompletionTextField.m in Sources */,
 				1B5F09CF1B4D3A2500271730 /* CoreDataDataSource.m in Sources */,
+				7ADD4A901C2014B10004A32A /* AutoCompletionTextField.m in Sources */,
 				1B5F09DF1B4D5C6B00271730 /* GetJSONOperation.m in Sources */,
 				1B5F09D61B4D47BC00271730 /* JSONManager.m in Sources */,
 				1B68C5821B4AC2C900D7850D /* ViewController.m in Sources */,
@@ -493,7 +497,7 @@
 				1B5105A81B4BD7DD00E31A9E /* AutoCompletion.xcdatamodeld in Sources */,
 				1B5105AB1B4BE10600E31A9E /* CoreDataOperation.m in Sources */,
 				1B5F09D31B4D406200271730 /* JSONItem.m in Sources */,
-				1B68C5A71B4AC2F300D7850D /* AutoCompletionDataSource.m in Sources */,
+				7ADD4A8F1C2014B10004A32A /* AutoCompletionDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,12 +531,12 @@
 /* Begin PBXTargetDependency section */
 		1B68C5911B4AC2CA00D7850D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B68C5751B4AC2C900D7850D /* AutoCompletion */;
+			target = 1B68C5751B4AC2C900D7850D /* AutoCompletionDemo */;
 			targetProxy = 1B68C5901B4AC2CA00D7850D /* PBXContainerItemProxy */;
 		};
 		8304FE001B4EBEA300B36DE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B68C5751B4AC2C900D7850D /* AutoCompletion */;
+			target = 1B68C5751B4AC2C900D7850D /* AutoCompletionDemo */;
 			targetProxy = 8304FDFF1B4EBEA300B36DE2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -642,11 +646,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = AutoCompletion/Info.plist;
+				INFOPLIST_FILE = AutoCompletionDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.3pillar.AutoCompletion;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AutoCompletionDemo;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -662,11 +666,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = AutoCompletion/Info.plist;
+				INFOPLIST_FILE = AutoCompletionDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.3pillar.AutoCompletion;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AutoCompletionDemo;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -685,8 +689,8 @@
 				);
 				INFOPLIST_FILE = AutoCompletionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoCompletion.app/AutoCompletion";
+				PRODUCT_NAME = AutoCompletionDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoCompletionDemo.app/AutoCompletionDemo";
 			};
 			name = Debug;
 		};
@@ -700,8 +704,8 @@
 				);
 				INFOPLIST_FILE = AutoCompletionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoCompletion.app/AutoCompletion";
+				PRODUCT_NAME = AutoCompletionDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoCompletionDemo.app/AutoCompletionDemo";
 			};
 			name = Release;
 		};
@@ -714,7 +718,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UITesting.AutoCompletionUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AutoCompletionDemo;
 				TEST_TARGET_NAME = AutoCompletion;
 				USES_XCTRUNNER = YES;
 			};
@@ -727,7 +731,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UITesting.AutoCompletionUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AutoCompletionDemo;
 				TEST_TARGET_NAME = AutoCompletion;
 				USES_XCTRUNNER = YES;
 			};
@@ -736,7 +740,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B68C5711B4AC2C900D7850D /* Build configuration list for PBXProject "AutoCompletion" */ = {
+		1B68C5711B4AC2C900D7850D /* Build configuration list for PBXProject "AutoCompletionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B68C5971B4AC2CA00D7850D /* Debug */,
@@ -745,7 +749,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B68C5991B4AC2CA00D7850D /* Build configuration list for PBXNativeTarget "AutoCompletion" */ = {
+		1B68C5991B4AC2CA00D7850D /* Build configuration list for PBXNativeTarget "AutoCompletionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B68C59A1B4AC2CA00D7850D /* Debug */,
@@ -754,7 +758,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B68C59C1B4AC2CA00D7850D /* Build configuration list for PBXNativeTarget "AutoCompletionTests" */ = {
+		1B68C59C1B4AC2CA00D7850D /* Build configuration list for PBXNativeTarget "AutoCompletionDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B68C59D1B4AC2CA00D7850D /* Debug */,
@@ -763,7 +767,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8304FE031B4EBEA300B36DE2 /* Build configuration list for PBXNativeTarget "AutoCompletionUITests" */ = {
+		8304FE031B4EBEA300B36DE2 /* Build configuration list for PBXNativeTarget "AutoCompletionDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8304FE011B4EBEA300B36DE2 /* Debug */,

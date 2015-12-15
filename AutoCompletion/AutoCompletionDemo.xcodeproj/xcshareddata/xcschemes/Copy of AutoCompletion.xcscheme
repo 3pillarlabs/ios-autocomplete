@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1B68C5751B4AC2C900D7850D"
-               BuildableName = "AutoCompletion.app"
-               BlueprintName = "AutoCompletion"
-               ReferencedContainer = "container:AutoCompletion.xcodeproj">
+               BuildableName = "AutoCompletionDemo.app"
+               BlueprintName = "AutoCompletionDemo"
+               ReferencedContainer = "container:AutoCompletionDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1B68C58E1B4AC2CA00D7850D"
-               BuildableName = "AutoCompletionTests.xctest"
-               BlueprintName = "AutoCompletionTests"
-               ReferencedContainer = "container:AutoCompletion.xcodeproj">
+               BuildableName = "AutoCompletionDemo.xctest"
+               BlueprintName = "AutoCompletionDemoTests"
+               ReferencedContainer = "container:AutoCompletionDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -44,9 +44,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8304FDF91B4EBEA300B36DE2"
-               BuildableName = "AutoCompletionUITests.xctest"
-               BlueprintName = "AutoCompletionUITests"
-               ReferencedContainer = "container:AutoCompletion.xcodeproj">
+               BuildableName = "AutoCompletionDemo.xctest"
+               BlueprintName = "AutoCompletionDemoUITests"
+               ReferencedContainer = "container:AutoCompletionDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1B68C5751B4AC2C900D7850D"
-            BuildableName = "AutoCompletion.app"
-            BlueprintName = "AutoCompletion"
-            ReferencedContainer = "container:AutoCompletion.xcodeproj">
+            BuildableName = "AutoCompletionDemo.app"
+            BlueprintName = "AutoCompletionDemo"
+            ReferencedContainer = "container:AutoCompletionDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1B68C5751B4AC2C900D7850D"
-            BuildableName = "AutoCompletion.app"
-            BlueprintName = "AutoCompletion"
-            ReferencedContainer = "container:AutoCompletion.xcodeproj">
+            BuildableName = "AutoCompletionDemo.app"
+            BlueprintName = "AutoCompletionDemo"
+            ReferencedContainer = "container:AutoCompletionDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1B68C5751B4AC2C900D7850D"
-            BuildableName = "AutoCompletion.app"
-            BlueprintName = "AutoCompletion"
-            ReferencedContainer = "container:AutoCompletion.xcodeproj">
+            BuildableName = "AutoCompletionDemo.app"
+            BlueprintName = "AutoCompletionDemo"
+            ReferencedContainer = "container:AutoCompletionDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
