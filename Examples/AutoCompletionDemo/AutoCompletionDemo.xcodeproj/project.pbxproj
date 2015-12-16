@@ -34,8 +34,8 @@
 		4B559F5D1B57AEC3000812F3 /* AutoCompletionGetJSONOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B559F5C1B57AEC3000812F3 /* AutoCompletionGetJSONOperationTests.m */; };
 		4B559F611B57FAE3000812F3 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B559F601B57FAE3000812F3 /* NSString+URLEncoding.m */; };
 		4B55DFB21B56425B00225FA7 /* AutoCompletionApiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55DFB11B56425B00225FA7 /* AutoCompletionApiTests.m */; };
-		7AB6A1F21C2064DF00691478 /* AutoCompletion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB6A1F11C2064DF00691478 /* AutoCompletion.framework */; };
-		7AB6A1F31C2064EE00691478 /* AutoCompletion.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AB6A1F11C2064DF00691478 /* AutoCompletion.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7A6EAF921C21657A0022AFB6 /* AutoCompletion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6EAF911C21657A0022AFB6 /* AutoCompletion.framework */; };
+		7A6EAF931C2165940022AFB6 /* AutoCompletion.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A6EAF911C21657A0022AFB6 /* AutoCompletion.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		83F057CD1B56936600D54D34 /* AutoCompletionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F057CC1B56936600D54D34 /* AutoCompletionUITests.m */; };
 		C95FB7DC1B566D8A00C02D72 /* CoreDataOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FB7DB1B566D8A00C02D72 /* CoreDataOperationTests.m */; };
 		C95FB7DE1B567B8F00C02D72 /* FetchOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FB7DD1B567B8F00C02D72 /* FetchOperationTests.m */; };
@@ -70,7 +70,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7AB6A1F31C2064EE00691478 /* AutoCompletion.framework in CopyFiles */,
+				7A6EAF931C2165940022AFB6 /* AutoCompletion.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +126,7 @@
 		4B559F5F1B57FAE3000812F3 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
 		4B559F601B57FAE3000812F3 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
 		4B55DFB11B56425B00225FA7 /* AutoCompletionApiTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompletionApiTests.m; sourceTree = "<group>"; };
-		7AB6A1F11C2064DF00691478 /* AutoCompletion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AutoCompletion.framework; sourceTree = "<group>"; };
+		7A6EAF911C21657A0022AFB6 /* AutoCompletion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AutoCompletion.framework; sourceTree = "<group>"; };
 		8304FDFA1B4EBEA300B36DE2 /* AutoCompletionDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCompletionDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8304FDFE1B4EBEA300B36DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83F057CC1B56936600D54D34 /* AutoCompletionUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompletionUITests.m; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B5105B01B4BE18300E31A9E /* CoreData.framework in Frameworks */,
-				7AB6A1F21C2064DF00691478 /* AutoCompletion.framework in Frameworks */,
+				7A6EAF921C21657A0022AFB6 /* AutoCompletion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +202,7 @@
 		1B5105AE1B4BE17300E31A9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7AB6A1F11C2064DF00691478 /* AutoCompletion.framework */,
+				7A6EAF911C21657A0022AFB6 /* AutoCompletion.framework */,
 				1B5105AF1B4BE18300E31A9E /* CoreData.framework */,
 			);
 			name = Frameworks;

@@ -173,6 +173,7 @@
 				TargetAttributes = {
 					7AB6A1201C201A7900691478 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = RTBRG5VYD9;
 					};
 					7AB6A12A1C201A7900691478 = {
 						CreatedOnToolsVersion = 7.2;
@@ -334,6 +335,7 @@
 		7AB6A1361C201A7900691478 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -350,6 +352,7 @@
 		7AB6A1371C201A7900691478 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -402,6 +405,7 @@
 				7AB6A1371C201A7900691478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AB6A1381C201A7900691478 /* Build configuration list for PBXNativeTarget "AutoCompletionTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +414,7 @@
 				7AB6A13A1C201A7900691478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
