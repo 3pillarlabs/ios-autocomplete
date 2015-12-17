@@ -9,6 +9,8 @@ A framework which provides text field suggestions as a dropdown list. It is avai
 
 The purpose of this framework is to provide a simple, yet very useful feature - autocomplete textfield. IOS autocomplete is an iOS module that behaves like a normal text field with the added functionality that it provides suggestions to the user in a dropdown. 
 
+![](screenshots/Autocompletion.gif)
+
 ## Installation
 
 Add the "AutoCompletion.framework" to your project. Make sure the framework is added to 'Embedded Binaries' list from the General Tab of the Project Settings.
