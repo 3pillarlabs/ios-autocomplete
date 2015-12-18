@@ -3,7 +3,7 @@
 //  AutoCompletion
 //
 
-#import <AutoCompletion/AutoCompletion.h>
+@import AutoCompletion;
 #import "ViewController.h"
 #import "JSONGenerator.h"
 #import "CoreDataDataSource.h"
@@ -27,8 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//    [[JSONGenerator alloc] init];
-     
+    
     AutoCompletionUIKitDynamicsAnimation *animation = [[AutoCompletionUIKitDynamicsAnimation alloc] init];
     CoreDataDataSource *coreDataDataSource = [[CoreDataDataSource alloc] init];
     _coreDataTextField.suggestionsResultDataSource = coreDataDataSource;

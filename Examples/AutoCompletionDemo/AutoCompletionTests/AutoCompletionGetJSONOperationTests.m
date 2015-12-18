@@ -4,10 +4,10 @@
 //
 
 
+@import AutoCompletion;
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "Constants.h"
-#import "AutoCompletionTextField.h"
 #import "APIDataSource.h"
 #import "GetJSONOperation.h"
 

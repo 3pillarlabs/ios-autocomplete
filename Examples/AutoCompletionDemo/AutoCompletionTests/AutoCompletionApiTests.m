@@ -3,10 +3,9 @@
 //  AutoCompletion
 //
 
-
+@import AutoCompletion;
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "AutoCompletionTextField.h"
 #import "APIDataSource.h"
 
 @interface AutoCompletionApiTests : XCTestCase
