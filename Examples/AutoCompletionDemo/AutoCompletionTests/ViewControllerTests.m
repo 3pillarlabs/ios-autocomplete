@@ -4,10 +4,10 @@
 //
 
 
+@import AutoCompletion;
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "ViewController.h"
-#import "AutoCompletionTextField.h"
 
 @interface ViewController (Test)
 

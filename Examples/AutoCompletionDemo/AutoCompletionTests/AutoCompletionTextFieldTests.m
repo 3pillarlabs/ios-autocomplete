@@ -4,9 +4,9 @@
 //
 
 
+@import AutoCompletion;
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "AutoCompletionTextField.h"
 #import "AutoCompletionUIKitDynamicsAnimation.h"
 #import "CoreDataDataSource.h"
 #import "JSONDataSource.h"

@@ -4,8 +4,8 @@
 //
 
 
+@import AutoCompletion;
 #import "AutoCompletionUIKitDynamicsAnimation.h"
-#import <AutoCompletion/AutoCompletion.h>
 
 #define kDefaultDamping 0.2
 #define kDefaultFrequency 3

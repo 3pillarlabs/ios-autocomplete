@@ -36,6 +36,8 @@
 		4B55DFB21B56425B00225FA7 /* AutoCompletionApiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55DFB11B56425B00225FA7 /* AutoCompletionApiTests.m */; };
 		7A6EAF921C21657A0022AFB6 /* AutoCompletion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6EAF911C21657A0022AFB6 /* AutoCompletion.framework */; };
 		7A6EAF931C2165940022AFB6 /* AutoCompletion.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A6EAF911C21657A0022AFB6 /* AutoCompletion.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7ADDCAA41C240FBE006D8463 /* AutoCompletion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6EAF911C21657A0022AFB6 /* AutoCompletion.framework */; };
+		7ADDCAA51C240FC2006D8463 /* AutoCompletion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6EAF911C21657A0022AFB6 /* AutoCompletion.framework */; };
 		83F057CD1B56936600D54D34 /* AutoCompletionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F057CC1B56936600D54D34 /* AutoCompletionUITests.m */; };
 		C95FB7DC1B566D8A00C02D72 /* CoreDataOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FB7DB1B566D8A00C02D72 /* CoreDataOperationTests.m */; };
 		C95FB7DE1B567B8F00C02D72 /* FetchOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FB7DD1B567B8F00C02D72 /* FetchOperationTests.m */; };
@@ -153,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ADDCAA41C240FBE006D8463 /* AutoCompletion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ADDCAA51C240FC2006D8463 /* AutoCompletion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,6 +679,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -694,6 +699,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = AutoCompletionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -707,6 +713,10 @@
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AutoCompletionUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -720,6 +730,10 @@
 		8304FE021B4EBEA300B36DE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AutoCompletionUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
