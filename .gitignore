@@ -16,3 +16,11 @@ DerivedData
 .idea/
 *.hmap
 *.xccheckout
+Examples/AutoCompletionDemo/AutoCompletion.framework/AutoCompletion
+Examples/AutoCompletionDemo/AutoCompletion.framework/Info.plist
+Examples/AutoCompletionDemo/AutoCompletion.framework/Headers/AutoCompletion.h
+Examples/AutoCompletionDemo/AutoCompletion.framework/Headers/AutoCompletionAnimator.h
+Examples/AutoCompletionDemo/AutoCompletion.framework/Headers/AutoCompletionTextField.h
+Examples/AutoCompletionDemo/AutoCompletion.framework/Headers/AutoCompletionTextFieldDataSource.h
+Examples/AutoCompletionDemo/AutoCompletion.framework/Headers/AutoCompletionTextFieldDelegate.h
+Examples/AutoCompletionDemo/AutoCompletion.framework/Modules/module.modulemap
