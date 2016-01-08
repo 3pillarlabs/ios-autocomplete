@@ -177,6 +177,10 @@ autoCompletionTextField.animationDelegate = [AutoCompletionAnimation new];
 
 In the demo project you're able to see a workable example for AutoCompletion where the suggestions results come from three different scenarios: CoreData, JSON, and API.
 
+## Known issues
+
+If written text and suggestion have different letter case or if written text starts shifting to left, the suggestion doesn't overlap correctly the written text.
+
 ## License
 
 **AutoCompletion** is released under MIT license. See [LICENSE](LICENSE) for details.  
