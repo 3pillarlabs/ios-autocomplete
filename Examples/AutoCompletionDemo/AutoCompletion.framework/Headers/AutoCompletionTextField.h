@@ -54,13 +54,13 @@ IB_DESIGNABLE
 @property(nonatomic,assign) IBInspectable BOOL shouldHideTableOnSelection;
 
 /// Set this
-@property(nonatomic, weak) id<AutoCompletionTextFieldDataSource> suggestionsResultDataSource;
+@property(nonatomic, strong) id<AutoCompletionTextFieldDataSource> suggestionsResultDataSource;
 
 /// Set this
-@property(nonatomic, weak) id<AutoCompletionTextFieldDelegate> suggestionsResultDelegate;
+@property(nonatomic, strong) id<AutoCompletionTextFieldDelegate> suggestionsResultDelegate;
 
 /// Set this
-@property(nonatomic, weak) id<AutoCompletionAnimator> animationDelegate;
+@property(nonatomic, strong) id<AutoCompletionAnimator> animationDelegate;
 
 /// Set this if you need to show the suggestion table directly on the window(for example in case of a table it will look better on the window). The default value is NO
 @property(assign) IBInspectable BOOL showOnWindow;

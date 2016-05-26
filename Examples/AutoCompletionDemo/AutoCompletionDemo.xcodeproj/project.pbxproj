@@ -12,8 +12,8 @@
 		1B5105A81B4BD7DD00E31A9E /* AutoCompletion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B5105A61B4BD7DD00E31A9E /* AutoCompletion.xcdatamodeld */; };
 		1B5105AB1B4BE10600E31A9E /* CoreDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5105AA1B4BE10600E31A9E /* CoreDataOperation.m */; };
 		1B5105B01B4BE18300E31A9E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5105AF1B4BE18300E31A9E /* CoreData.framework */; };
-		1B57D9CD1CF5C4B30016799D /* AutoCompletion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B57D9CC1CF5C4B30016799D /* AutoCompletion.framework */; };
-		1B57D9CE1CF5C4B30016799D /* AutoCompletion.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B57D9CC1CF5C4B30016799D /* AutoCompletion.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1B57D9D41CF6E4D10016799D /* AutoCompletion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B57D9D31CF6E4D10016799D /* AutoCompletion.framework */; };
+		1B57D9D51CF6E4D10016799D /* AutoCompletion.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B57D9D31CF6E4D10016799D /* AutoCompletion.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1B5F09C11B4D167200271730 /* JSONGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F09C01B4D167200271730 /* JSONGenerator.m */; };
 		1B5F09C31B4D195500271730 /* file.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B5F09C21B4D195500271730 /* file.json */; };
 		1B5F09CF1B4D3A2500271730 /* CoreDataDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F09CE1B4D3A2500271730 /* CoreDataDataSource.m */; };
@@ -70,7 +70,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1B57D9CE1CF5C4B30016799D /* AutoCompletion.framework in Embed Frameworks */,
+				1B57D9D51CF6E4D10016799D /* AutoCompletion.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,7 +87,7 @@
 		1B5105A91B4BE10600E31A9E /* CoreDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataOperation.h; sourceTree = "<group>"; };
 		1B5105AA1B4BE10600E31A9E /* CoreDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataOperation.m; sourceTree = "<group>"; };
 		1B5105AF1B4BE18300E31A9E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		1B57D9CC1CF5C4B30016799D /* AutoCompletion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AutoCompletion.framework; sourceTree = "<group>"; };
+		1B57D9D31CF6E4D10016799D /* AutoCompletion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AutoCompletion.framework; sourceTree = "<group>"; };
 		1B5F09BF1B4D167200271730 /* JSONGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONGenerator.h; sourceTree = "<group>"; };
 		1B5F09C01B4D167200271730 /* JSONGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONGenerator.m; sourceTree = "<group>"; };
 		1B5F09C21B4D195500271730 /* file.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = file.json; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B5105B01B4BE18300E31A9E /* CoreData.framework in Frameworks */,
-				1B57D9CD1CF5C4B30016799D /* AutoCompletion.framework in Frameworks */,
+				1B57D9D41CF6E4D10016799D /* AutoCompletion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +203,7 @@
 		1B5105AE1B4BE17300E31A9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1B57D9CC1CF5C4B30016799D /* AutoCompletion.framework */,
+				1B57D9D31CF6E4D10016799D /* AutoCompletion.framework */,
 				1B5105AF1B4BE18300E31A9E /* CoreData.framework */,
 			);
 			name = Frameworks;
