@@ -3,7 +3,7 @@
 
 ## Description
 
-A framework which provides text field suggestions as a dropdown list. It is available with iOS 8 and later, Objective-C or Swift.
+A framework which provides text field suggestions as a dropdown list. It is available with iOS 9 and later, Objective-C or Swift.
 
 **Project Rationale**
 
