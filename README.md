@@ -3,17 +3,55 @@
 
 ## Description
 
-A framework which provides text field suggestions as a dropdown list. It is available with iOS 8 and later, Objective-C or Swift.
+A framework which provides text field suggestions as a dropdown list. It is available with iOS 9 and later, Objective-C or Swift.
 
 **Project Rationale**
 
 The purpose of this framework is to provide a simple, yet very useful feature - autocomplete textfield. IOS autocomplete is an iOS module that behaves like a normal text field with the added functionality that it provides suggestions to the user in a dropdown. 
 
-![](screenshots/Autocompletion.gif)
 
 ## Installation
 
-Add the "AutoCompletion.framework" to your project. Make sure the framework is added to 'Embedded Binaries' list from the General Tab of the Project Settings.
+###CocoaPods Installation
+
+Run Terminal
+
+- Navigate to project folder
+- Use command:
+
+``` code
+pod init
+```
+- Add code to podfile
+
+```
+platform :ios, '9.0'
+
+target 'YourProjectName' do
+  use_frameworks!
+    pod 'AutoCompletion'
+end
+
+```
+- Remember to open project using workspace
+
+###Carthage Installation
+
+Run Terminal
+
+- Navigate to project folder
+- Add code to Cartfile:
+
+``` code
+github "3pillarlabs/ios-autocomplete"
+```
+
+- Run carthage by using command:
+
+``` code
+carthage update
+```
+- Add the "AutoCompletion.framework" to the list of "Embedded Binaries" (located inside Xcode -> Target -> General tab) from Carthage/Build/iOS in project folder
 
 ## Usage
 
@@ -56,14 +94,19 @@ import AutoCompletion
 
 ```swift
 class AutoCompletionDataSource: NSObject, AutoCompletionTextFieldDataSource {
-    func fetchSuggestionsForIncompleteString(incompleteString: String!, withCompletionBlock completion: FetchCompletionBlock!) {
+	@IBOutlet weak var autoCompletionTextField: AutoCompletionTextField!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        autoCompletionOutlet.suggestionsResultDataSource = self
+    }
+    // MARK: DataSource
+    
+    func fetchSuggestions(forIncompleteString incompleteString: String!,
+                          withCompletionBlock completion: FetchCompletionBlock!) {
         ...code...
     }
 }
-
-...
-
-autoCompletionTextField.suggestionsResultDataSource = AutoCompletionDataSource()
 ```
 
 **Objective-C**
@@ -99,7 +142,7 @@ class ViewController: UIViewController, AutoCompletionTextFieldDelegate {
     
     // MARK: Delegate
     
-    func textField(textField: AutoCompletionTextField!, didSelectItem selectedItem: AnyObject!) {
+    func textField(_ textField: AutoCompletionTextField!, didSelectItem selectedItem: Any!) {
 		...code...
     }
 }
@@ -135,11 +178,13 @@ class ViewController: UIViewController, AutoCompletionTextFieldDelegate {
 ```swift
 class AutoCompletionAnimation: NSObject, AutoCompletionAnimator {
     
-    func showSuggestionsForTextField(textField: AutoCompletionTextField!, table: UITableView!, numberOfItems count: Int) {
+    func showSuggestions(for textField: AutoCompletionTextField!,
+                         table: UITableView!, numberOfItems count: Int) {
     	...code...    
    	 }
     
-    func hideSuggestionsForTextField(textField: AutoCompletionTextField!, table: UITableView!) {
+    func hideSuggestions(for textField: AutoCompletionTextField!,
+                         table: UITableView!) {
     	...code...
     }
 }
@@ -175,7 +220,7 @@ autoCompletionTextField.animationDelegate = [AutoCompletionAnimation new];
 ```
 <br />
 
-In the demo project you're able to see a workable example for AutoCompletion where the suggestions results come from three different scenarios: CoreData, JSON, and API.
+In the demo branch you're able to see a workable example for AutoCompletion where the suggestions results come from three different scenarios: CoreData, JSON, and API.
 
 ## Known issues
 
