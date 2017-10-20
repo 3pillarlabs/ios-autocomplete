@@ -40,10 +40,10 @@ end
 Run Terminal
 
 - Navigate to project folder
-- Use command:
+- Add code to Cartfile:
 
 ``` code
-echo git \"git@github.com:3pillarlabs/ios-autocomplete.git\" \"AutoCompleteFramework\" > Cartfile
+github "3pillarlabs/ios-autocomplete"
 ```
 
 - Run carthage by using command:

@@ -1,6 +1,0 @@
-framework module AutoCompletion {
-  umbrella header "AutoCompletion.h"
-
-  export *
-  module * { export * }
-}
