@@ -15,7 +15,7 @@ In this demo branch you're able to see a workable example for AutoCompletion whe
 
 ## Installation
 
-###CocoaPods Installation
+### CocoaPods Installation
 
 Run Terminal
 
@@ -27,7 +27,7 @@ pod install
 ```
 - Remember to open project using workspace
 
-###Carthage Installation
+### Carthage Installation
 
 Run Terminal
 
