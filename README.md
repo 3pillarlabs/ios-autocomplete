@@ -7,12 +7,12 @@ A framework which provides text field suggestions as a dropdown list. It is avai
 
 **Project Rationale**
 
-The purpose of this framework is to provide a simple, yet very useful feature - autocomplete textfield. IOS autocomplete is an iOS module that behaves like a normal text field with the added functionality that it provides suggestions to the user in a dropdown. 
+The purpose of this framework is to provide a simple, yet very useful feature - autocomplete textfield. IOS autocomplete is an iOS module that behaves like a normal text field with the added functionality that it provides suggestions to the user in a dropdown.
 
 
 ## Installation
 
-###CocoaPods Installation
+### CocoaPods
 
 Run Terminal
 
@@ -35,7 +35,7 @@ end
 ```
 - Remember to open project using workspace
 
-###Carthage Installation
+### Carthage
 
 Run Terminal
 
@@ -59,13 +59,13 @@ carthage update
 **Objective-C**
 
 ```objective-c
-@import AutoCompletion; 
+@import AutoCompletion;
 ```
 
 **Swift**
 
 ```swift
-import AutoCompletion 
+import AutoCompletion
 ```
 
 2\. Add an autocompletion instance inside a view:
@@ -101,7 +101,7 @@ class AutoCompletionDataSource: NSObject, AutoCompletionTextFieldDataSource {
         autoCompletionOutlet.suggestionsResultDataSource = self
     }
     // MARK: DataSource
-    
+
     func fetchSuggestions(forIncompleteString incompleteString: String!,
                           withCompletionBlock completion: FetchCompletionBlock!) {
         ...code...
@@ -127,7 +127,7 @@ class AutoCompletionDataSource: NSObject, AutoCompletionTextFieldDataSource {
 autoCompletionTextField.suggestionsResultDataSource = [AutoCompletionDataSource new];
 ```
 
-4\. Optionally, you can set the **suggestionsResultDelegate** in order to handle the suggestion selection. 
+4\. Optionally, you can set the **suggestionsResultDelegate** in order to handle the suggestion selection.
 
 **Swift**
 
@@ -139,9 +139,9 @@ class ViewController: UIViewController, AutoCompletionTextFieldDelegate {
         super.viewDidLoad()
         autoCompletionTextField.suggestionsResultDelegate = self
     }
-    
+
     // MARK: Delegate
-    
+
     func textField(_ textField: AutoCompletionTextField!, didSelectItem selectedItem: Any!) {
 		...code...
     }
@@ -177,12 +177,12 @@ class ViewController: UIViewController, AutoCompletionTextFieldDelegate {
 
 ```swift
 class AutoCompletionAnimation: NSObject, AutoCompletionAnimator {
-    
+
     func showSuggestions(for textField: AutoCompletionTextField!,
                          table: UITableView!, numberOfItems count: Int) {
     	...code...    
    	 }
-    
+
     func hideSuggestions(for textField: AutoCompletionTextField!,
                          table: UITableView!) {
     	...code...
@@ -231,8 +231,6 @@ If written text and suggestion have different letter case or if written text sta
 **AutoCompletion** is released under MIT license. See [LICENSE](LICENSE) for details.  
 
 ## About this project
-![3Pillar Global] (http://www.3pillarglobal.com/wp-content/themes/base/library/images/logo_3pg.png)
+[![3Pillar Global](https://www.3pillarglobal.com/wp-content/themes/base/library/images/logo_3pg.png)](http://www.3pillarglobal.com/)
 
 **AutoCompletion** is developed and maintained by [3Pillar Global](http://www.3pillarglobal.com/).
-
-
